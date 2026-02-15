@@ -3,7 +3,7 @@
 Modern SaaS-style landing page built with React and Tailwind CSS.
 
 ## Live Demo
-(soon)
+https://smartaccess-landing.vercel.app/
 
 ## About
 SmartAccess is a responsive landing page concept for an access control and attendance management system.
