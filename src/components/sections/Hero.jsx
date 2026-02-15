@@ -9,12 +9,13 @@ export default function Hero({ onDemo = () => {} }) {
     <section className="relative h-screen w-full overflow-hidden">
       <video
         className="absolute inset-0 h-full w-full object-cover"
-        src="/hero.mp4"
         autoPlay
         muted
         loop
         playsInline
-      />
+      >
+        <source src="/hero-small.mp4" type="video/mp4" />
+      </video>
 
       <div className="absolute inset-0 bg-black/55" />
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/70 to-slate-950/35" />
